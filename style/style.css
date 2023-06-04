@@ -191,15 +191,84 @@ main {
 }
 
 /* resume style */
-.resume-titel {
+.section-titel {
     text-align: center;
     margin-top: 130px;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
-
-
-
     color: #181818;
 
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+/* .resume-titel {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    
+} */
+
+.resume-item-titel {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+
+.resume-item-sub-titel {
+    font-weight: 600;
+    font-size: 20px;
+
+    /* Dark 03 */
+
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.resume-item-drscripation {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #757575;
+}
+/* Resume btn */
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+/* connect style */
+.connect{
+    display: flex;
+    background-color: #FFF8F3; 
+    gap: 100px;
+    padding: 130px 200px;
+}
+.connect .section-titel{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    
+}
+.connect-description{
+    margin-bottom: 30px;
+
+}
+.connect input[type="text"],input[type="textarea"], input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
